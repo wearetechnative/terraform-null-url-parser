@@ -18,6 +18,7 @@ This repository uses [pre-commit](https://pre-commit.com/) to ensure consistent 
 
 You can install "pre-commit" by running "pip install pre-commit"
 
+Once a commit is pushed, a github will run an automated test to validate that the new commit will not break anything.
 
 ## Usage
 
