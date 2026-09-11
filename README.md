@@ -1,4 +1,4 @@
-# terraform-null-url-parser ![](https://img.shields.io/github/actions/workflow/status/TechNative-B-V/terraform-null-url-parser/lint_test.yaml)
+# terraform-null-url-parser ![](https://img.shields.io/github/actions/workflow/status/wearetechnative/terraform-null-url-parser/lint_test.yaml?branch=main)
 
 
 
