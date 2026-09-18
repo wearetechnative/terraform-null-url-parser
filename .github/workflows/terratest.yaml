@@ -18,9 +18,12 @@ jobs:
           cache-dependency-path: "**/*.sum"
           go-version: '1.21.3'
 
+      # go mod download, not go mod tidy: tidy re-resolves the dependency graph
+      # on every run, which is how a newly published nested terratest module
+      # turned this check red without anything in this repository changing.
       - name: Download modules
         working-directory: test
-        run: go mod tidy
+        run: go mod download
 
       - name: Test Terraform
         working-directory: test
